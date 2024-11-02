@@ -1,0 +1,29 @@
+.content{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.text{
+  width: 40%;
+}
+.text h1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.text p{
+  color: gray;
+}
+
+@media (max-width:768px) {
+  .content{
+    flex-direction: column;
+  }
+  .text{
+    width: 100%;
+  }
+}
